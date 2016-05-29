@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Snake
+namespace MySnake
 {
     class Program
     {
@@ -23,6 +23,7 @@ namespace Snake
             Draw(x2, y2, sym2);
 
             Console.ReadLine();
+
 
         }
         static void Draw(int x, int y, char sym)
