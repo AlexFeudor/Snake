@@ -25,8 +25,9 @@ namespace Snake
             lineRight.Draw();
 
             // Отрисовка точки в рамке
-            Point p = new Point(5, 5, '*');
+            Point p = new Point(3, 5, '*');
             Snake snake = new Snake(p, 4, direction.RIGHT);
+            snake.Draw();
 
                                       
              
